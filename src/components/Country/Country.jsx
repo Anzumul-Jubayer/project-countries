@@ -5,15 +5,17 @@ const Country = ({country,handleVisitedCountries,handleFlag}) => {
     const [visited,setVisited]=useState(false)
     const handleVisited=(()=>{
         // first way
-        // if(visited){
-        //     setVisited(false)
-        // }else{
-        //     setVisited(true)
-        // }
+        if(visited){
+            setVisited(false)
+        }else{
+
+            setVisited(true)
+            
+        }
         // second way
         // setVisited(visited?false:true)
         // third way
-        setVisited(!visited)
+        // setVisited(!visited)
         handleVisitedCountries(country)
     })
     return (

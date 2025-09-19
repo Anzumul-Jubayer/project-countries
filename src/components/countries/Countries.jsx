@@ -15,7 +15,7 @@ const Countries = ({ CountriesPromise }) => {
     const newVisitedFlag=[...visitedFlag,flags]
     setVisitedFlag(newVisitedFlag)
   })
-
+//  const visitedCount=
 //   console.log(countriesData);
   return (
     <div>

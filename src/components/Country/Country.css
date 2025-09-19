@@ -11,5 +11,10 @@ button{
    border-color: yellow;
    border-radius: 5px;
    margin-top: 10px;
+   margin-left: 10px;
+   cursor: pointer;
    
+}
+.visited-country{
+    background-color: aquamarine;
 }
